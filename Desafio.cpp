@@ -73,7 +73,9 @@ int main() {
             } else if (jogadaPJ == jogadores[0]) {
 
                 setColor(10); 
-                cout << "Resultado: VITÓRIA! Jogador 3 perdeu a rodada.\n\n";
+                cout << "Resultado: VITÓRIA!\n";
+                setColor(12); 
+                cout << "Jogador 3 perdeu a rodada.\n\n";
                 setColor(15); 
                 cout << "Prosseguir para próxima etapa? ";
                 system("pause");
@@ -83,7 +85,9 @@ int main() {
             } else if (jogadaPJ == jogadores[1]) {
 
                 setColor(10); 
-                cout << "Resultado: VITÓRIA! Jogador 2 perdeu a rodada.\n\n";
+                cout << "Resultado: VITÓRIA!\n";
+                setColor(12); 
+                cout << "Jogador 2 perdeu a rodada.\n\n";
                 setColor(15); 
                 cout << "Prosseguir para próxima etapa? ";
                 system("pause");
